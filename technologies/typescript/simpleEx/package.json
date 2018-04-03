@@ -1,0 +1,16 @@
+{
+  "name": "simpleex",
+  "version": "1.0.0",
+  "description":
+    "The code for [this](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)",
+  "main": "greeter.js",
+  "scripts": {
+    "compile": "tsc greeter.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^2.7.1"
+  }
+}
