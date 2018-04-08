@@ -36,6 +36,10 @@
 - [ ] [RxJS - A Reactive programming library for JavaScript](https://github.com/ReactiveX/RxJS)
 
 
+## Ruby/Rails
+
+- [ ] Practical Object Oriented Ruby
+
 ## Web Development
 
 - [ ] [Mastering Chrome Dev Tools](https://frontendmasters.com/courses/chrome-dev-tools/)

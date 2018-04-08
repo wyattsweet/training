@@ -177,3 +177,60 @@ HTML5 reintroduced the bold and italic tags.
 surround quote in `<blockquote>`.
 The quote itself can be surrounded with the `<q>` tag.
 `<blockquotes>` are not part of the normal document flow, so you could use a `<footer>` to surround the citation and apply styling. In addition the citation should be surrounded with a `<cite>` tag. footer could of been left off, but it does give structural integrity.
+
+### Using the address element
+
+Used for the contact information for the generator of a specific article or document.
+
+### Using the small element
+
+Used to represent legal text, or any text that would be considered small print.
+Does not de-emphasize or lower the importance of text.
+Shouldn't be used for extended spans of text.
+In HTML4 `small` used to be used to only represent small text.
+
+### Using the mark element
+
+If you're quoting somebody and you want to emphaize something that wasn't originally emphasized, then this is perfect for this.
+
+Also used to highlight parts of a document that are matching some search string.
+
+Browser default styling is it highlights the text.
+
+### Working with date and time
+
+`time` element
+
+Used for representing date or time on the page
+
+`datetime` attribute – a representation of the elements content in a machine readable format. Pass if the text in time isn't in a valid date/time format.
+
+Using the time element will allow users to save the date to their calendar.
+
+### Defining Link Relationships
+
+`rel` attribute defines what type of link the elements create.
+`rel="nofollow"` tells search engines not to link the content of the linked page with your page.
+You can use more than one rel attribute on an element – `rel="nofollow external"`
+
+## Extending Meaning
+
+### Meta Tags
+
+a general way to define document level meta data. 
+
+`<meta charset="utf8">` defines character encoding for the page.
+This can be expanded upon. Most people don't use keywords.
+Descriptions are used when search engines give a description of your page.
+
+```
+<meta name="description" content="short descriptiona of the page">
+```
+
+for search engines and other user-agents
+
+Other usecasees: Meta tags are used by Twitter to describe what the page will look like when it's tweeted. You use Twitter specific meta tags. Same with Facebook.
+
+### Using class and ID attributes
+
+impart semantic meaning with class and styling hooks.
