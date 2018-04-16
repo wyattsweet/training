@@ -95,8 +95,6 @@
 ## Databases
 - [ ] [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql/)
 
-
-
 ## Non-Coding Resources
 - [ ] [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn)
 - [ ] [Electronics Classes](http://www.instructables.com/classes/tagged/electronics/)
