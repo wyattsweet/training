@@ -234,3 +234,14 @@ Other usecasees: Meta tags are used by Twitter to describe what the page will lo
 ### Using class and ID attributes
 
 impart semantic meaning with class and styling hooks.
+
+### Using ARIA landmark roles
+
+`roles` attribute identifies content as having specific semantic meaning and representing a particular section in a document.
+
+roles are broken out into 4 categories
+
+- abstract
+- widget: menus, buttons, alerts, dialog boxes
+- document structure: articles, groups of content, hading
+- landmark roles: screen readers and other assistive technology are able to recognize landmark roles. Landmark roles include: navigation, main, form, search, content info, complementary, banner and application.

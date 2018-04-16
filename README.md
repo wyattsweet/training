@@ -13,6 +13,7 @@
 - [ ] [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)
 - [ ] [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387?utm_source=google&utm_medium=cpc&utm_campaign=google_search_dsa&gclid=CjwKCAiA4vbSBRBNEiwAMorER3cRvHNtDv1iT0KhI81zsphRVwxzXtIGdRzzIc7VJ9DM6bHEU8J8jRoC9w8QAvD_BwE)
 - [ ] [LevelDB and Crypto](https://frontendmasters.com/courses/leveldb-crypto/)
+- Refactoring 2nd Edition by Martin Fowler, Fall 2018
 
 **Additional topics to learn**
 
@@ -35,14 +36,19 @@
 - [x] [Deep JS Foundations](https://frontendmasters.com/courses/javascript-foundations/)
 
 
-## Ruby/Rails
+## Ruby
 
 - [ ] [Tutorials Point Learn Ruby Programming](https://www.tutorialspoint.com/ruby/index.htm)
-- [ ] [Rails Guides](http://guides.rubyonrails.org/)
 - [ ] Practical Object Oriented Ruby
 - [ ] [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/)
 - [ ] The Well Grounded Rubyist, July 2018
+- [ ] [Virtuous Code - Avdi Grimm](http://www.virtuouscode.com/)
+- [ ] [Drifting Ruby](https://www.driftingruby.com/)
+
+## Rails
+- [ ] [Rails Guides](http://guides.rubyonrails.org/)
 - [ ] [The Rails 5 Way](http://proquest.safaribooksonline.com.ezproxy.sfpl.org/book/programming/rails/9780134657691)
+- [ ] Rails Antipatterns
 
 ## Web Development
 
@@ -89,9 +95,10 @@
 ## Databases
 - [ ] [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql/)
 
-## Other Courses
+## Non-Coding Resources
 - [ ] [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn)
 - [ ] [Electronics Classes](http://www.instructables.com/classes/tagged/electronics/)
+- It Doesn’t Have to be crazy at work, Fall 2018
 - [ ] [Intro to Self Driving Cars Engineering](https://www.udacity.com/course/intro-to-self-driving-cars--nd113)
 
 ## Books
