@@ -1,8 +1,8 @@
 # Training Resources 
 
 ## In Progress 
+- Tutorials Point Learn Ruby Programming
 - [HTML 5 - Structure, Syntax and Semantics](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html)
-- [Learning JavaScript Design Patterns](https://github.com/addyosmani/essential-js-design-patterns)
 - Mastering Chrome Dev Tools - FEM course
 - React Docs 
 
@@ -21,29 +21,37 @@
 - [ ] Data Science and Data Analysis
 
 ## JavaScript
-- [x] [Deep JS Foundations](https://frontendmasters.com/courses/javascript-foundations/)
+- [ ] Secrets of the javaScript Ninja
+- [ ] [Mostly Adequate Guide to Functional Programming in JS](https://github.com/MostlyAdequate/mostly-adequate-guide)
+- [Learning JavaScript Design Patterns](https://github.com/addyosmani/essential-js-design-patterns)
 - [ ] [Asynchronous Programming in JavaScript](https://frontendmasters.com/courses/asynchronous-javascript/)
 - [ ] [Advanced Asynchronous JavaScript](https://frontendmasters.com/courses/advanced-async-js/)
 - [ ] [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
-- [ ] [Advanced React Training](https://courses.reacttraining.com/courses/enrolled/250055) _in progress_
 - [ ] [Regular Expressions in JavaScript](http://eloquentjavascript.net/09_regexp.html)
-- [ ] [Building Performant Signup Flows in React](https://www.youtube.com/watch?v=pApKYYns7-U&spfreload=5)
-- [ ] Secrets of the javaScript Ninja
-- [ ] [Mostly Adequate Guide to Functional Programming in JS](https://github.com/MostlyAdequate/mostly-adequate-guide)
 - [ ] [Eloquent JavaScript](http://eloquentjavascript.net/)
 - [ ] [How to GraphQL](https://www.howtographql.com/)
 - [ ] [Cycle.js - A functional and reactive javaScript framework](https://cycle.js.org/)
 - [ ] [RxJS - A Reactive programming library for JavaScript](https://github.com/ReactiveX/RxJS)
+- [x] [Deep JS Foundations](https://frontendmasters.com/courses/javascript-foundations/)
 
 
 ## Ruby/Rails
 
+- [ ] [Tutorials Point Learn Ruby Programming](https://www.tutorialspoint.com/ruby/index.htm)
+- [ ] [Rails Guides](http://guides.rubyonrails.org/)
 - [ ] Practical Object Oriented Ruby
+- [ ] [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/)
+- [ ] The Well Grounded Rubyist, July 2018
+- [ ] [The Rails 5 Way](http://proquest.safaribooksonline.com.ezproxy.sfpl.org/book/programming/rails/9780134657691)
 
 ## Web Development
 
 - [ ] [Mastering Chrome Dev Tools](https://frontendmasters.com/courses/chrome-dev-tools/)
+- [ ] HTTP: The Definitive Guide
 - [ ] [Website Accessibility](https://frontendmasters.com/courses/web-accessibility/)
+- [ ] [Web Security](https://frontendmasters.com/courses/web-security/)
+- [ ] [Advanced React Training](https://courses.reacttraining.com/courses/enrolled/250055) _in progress_
+- [ ] [Building Performant Signup Flows in React](https://www.youtube.com/watch?v=pApKYYns7-U&spfreload=5)
 - [ ] [CSS Grid and Flexbox](https://frontendmasters.com/courses/css-grids-flexbox/)
 - [ ] [CSS In Depth, v2](https://frontendmasters.com/courses/css-in-depth-v2/)
 - [ ] [CSS Page Layouts](https://www.lynda.com/Web-Interactive-CSS-training/CSS-Page-Layouts/86003-2.html)
@@ -53,7 +61,6 @@
 - [ ] [Progressive Web Apps and Offline](https://frontendmasters.com/courses/progressive-web-apps/)
 - [ ] [Google Web Fundamentals](https://developers.google.com/web)
 - [ ] [Puppeteer](https://github.com/GoogleChrome/puppeteer)
-- [ ] [Web Security](https://frontendmasters.com/courses/web-security/)
 - [ ] [Learn HTML - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 - [ ] [Code Academy Web Projects](https://www.codecademy.com/en/tracks/projects)
 - [ ] [HTML Semantics](https://www.smashingmagazine.com/ebooks/html-semantics/)
@@ -84,18 +91,17 @@
 
 ## Other Courses
 - [ ] [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn)
-- [ ] [Intro to Self Driving Cars Engineering](https://www.udacity.com/course/intro-to-self-driving-cars--nd113)
 - [ ] [Electronics Classes](http://www.instructables.com/classes/tagged/electronics/)
+- [ ] [Intro to Self Driving Cars Engineering](https://www.udacity.com/course/intro-to-self-driving-cars--nd113)
 
 ## Books
-- [ ] HTTP: The Definitive Guide
 
 ## Docs
 
 - [Redux](https://redux.js.org/)
 - [ ] Webpack
-- [ ] Typescript 
 - [ ] Babel
+- [ ] Typescript 
 - [ ] [React Router](https://reacttraining.com/react-router/)
 - [ ] NPM
 - [ ] [Underscore](http://underscorejs.org/)
