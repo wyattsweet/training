@@ -160,4 +160,60 @@ To create the table from a migration you'd run `rails db:migrate` and to roll it
 
 ## Active Record Migrations
 
+Migrations are a convenient and consistent way to alter your database schema over time.
+Active record knows how to update your schema along the timeline, bringing it to whatever point it is in the history to the latest version.
+The migration can add tables and also rollback
+
+### Create a standalone migration
+
+Migrations are stored as files in the `db/migrate` directory, one for each migration class.
+The name of the file is in the form `YYYYMMDDHHMMSS_create_products.rb`. This would define the `CreateProducts` class.
+
+Active Record provides a generator for creating this for you `rails generate migration CreateProducts`, this would create a empty migration.
+
+If the migration name is in the form of `AddXXXtoYYY` or `RemoveXXXFromYYY` and is followed by a list of column names and types then the migration will create the appropriate add and remove column statements.
+
+`rails generate migration AddPartNumberToProducts part_number:string` – This will add the column `part_number` to the `Products` table.
+
+You can add a index with the following `rails generate migration AddPartNumberToProducts part_number:string:index`
+
+To remove a column from the table – `bin/rails generate migration RemovePartNumberFromProducts part_number:string`
+
+You can add multiple columns – `$ bin/rails generate migration AddDetailsToProducts part_number:string price:decimal`. Here we are adding the columns `part_number` and `price`.
+
+If the migration is in the form of `CreateXXX` and is followed by a list of column names and types, then the migration will create the table XXX with the columns listed.
+
+`bin/rails generate migration CreateProducts name:string part_number:string`.
+
+You can always add to the migration by editing the `db/migrate/YYYYMMDDHHMMSS_add_details_to_products.rb` file.
+
+There is a generator which will produce join tables.
+
+`bin/rails g migration CreateJoinTableCustomerProduct customer product`.
+
+### 2.2 Model Generators
+
+The model and scaffold generators will create the appropriate migrations for the new model.
+The following statement - `bin/rails g model Product name:string description:text`
+
+will create the following migration
+
+```ruby
+class CreateProducts < ActiveRecord::Migration[5.0]
+  def change
+    create_table :products do |t|
+      t.string :name
+      t.text :description
+ 
+      t.timestamps
+    end
+  end
+end
+```
+
+You can append as many name/column pairs as you want.
+
+### 2.3 Passing Modifiers
+
+Type or column modifiers can be applied when creating or changing any column
 

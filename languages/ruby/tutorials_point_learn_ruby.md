@@ -104,3 +104,28 @@ cust2 = Customer.new(2, "Arnold", "Highland")
 Member functions are any methods within a class.
 They start with `def` followed by the method name.
 They end with the keyword `end`.
+
+## Variables, Constants and Literals
+
+There are 5 types of variables
+
+### Global variables
+Globals begin with `$`. Generally not recommended to use global variables.
+
+### Instance Variable
+begin with `@`
+
+### Class variables
+begin with `@@`
+
+### Local variables
+begin with a lowercase letter or `_`
+
+### Constants
+
+Constants begin with a uppercase letter. Constants can be accessed from within a class or module. If defined outside a class or module they become global.
+
+### Ruby Pseudo-Variables
+
+These are special variables which behave like constants. You can't assign a value to these guys.
+- self: the rec
