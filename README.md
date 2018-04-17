@@ -2,9 +2,13 @@
 
 ## In Progress 
 - Tutorials Point Learn Ruby Programming
-- [HTML 5 - Structure, Syntax and Semantics](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html)
+- Rails Guides
 - Mastering Chrome Dev Tools - FEM course
 - React Docs 
+
+## Next Up
+- [HTML 5 - Structure, Syntax and Semantics](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html) Finish this
+
 
 ## Computer Science
 - [ ] [Computer Science 101](https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about) OR [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
@@ -53,6 +57,7 @@
 ## Web Development
 
 - [ ] [Mastering Chrome Dev Tools](https://frontendmasters.com/courses/chrome-dev-tools/)
+- [ ] Full-stack for FE pt.2
 - [ ] HTTP: The Definitive Guide
 - [ ] [Website Accessibility](https://frontendmasters.com/courses/web-accessibility/)
 - [ ] [Web Security](https://frontendmasters.com/courses/web-security/)
