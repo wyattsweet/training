@@ -215,5 +215,25 @@ You can append as many name/column pairs as you want.
 
 ### 2.3 Passing Modifiers
 
-Type or column modifiers can be applied when creating or changing any column
+## Writing a Migration
+
+The `create_table` method is one of the most fundamental. Most of the time it will be generated for you using a model or scaffold generator.
+
+```ruby
+create_table :products do |t|
+  t.string :name
+end
+```
+This creates a products table with a column called name.
+By default `create_table` will create a primary key called `id`. You can change the name of the primary key with the `:primary_key` option. If you don't want a primary key, you can pass the option `id: false`.
+If you need to pass db specific options, you can placee a SQL fragement in the `:options` option
+
+```ruby
+create_table :products, options: "ENGINE=BLACKHOLE" do |t|
+  t.string :name, null: false
+end
+```
+
+### 3.2 Creating a Join Table
+
 

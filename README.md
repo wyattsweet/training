@@ -3,7 +3,7 @@
 ## In Progress 
 - [HTML 5 - Structure, Syntax and Semantics](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html) Finish this
 - Tutorials Point Learn Ruby Programming
-- Rails Guides
+- [Rails Guides](http://guides.rubyonrails.org/)
 - React Docs 
 
 ## Next Up
