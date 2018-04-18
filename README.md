@@ -1,13 +1,13 @@
 # Training Resources 
 
 ## In Progress 
+- [HTML 5 - Structure, Syntax and Semantics](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html) Finish this
 - Tutorials Point Learn Ruby Programming
 - Rails Guides
-- Mastering Chrome Dev Tools - FEM course
 - React Docs 
 
 ## Next Up
-- [HTML 5 - Structure, Syntax and Semantics](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html) Finish this
+- Mastering Chrome Dev Tools - FEM course
 
 
 ## Computer Science
