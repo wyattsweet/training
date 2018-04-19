@@ -82,7 +82,7 @@ user = User.new do |u|
 end
 ```
 
-#### Read 
+#### Read
 
 A few examples of reading data
 
@@ -204,7 +204,7 @@ class CreateProducts < ActiveRecord::Migration[5.0]
     create_table :products do |t|
       t.string :name
       t.text :description
- 
+
       t.timestamps
     end
   end
@@ -235,5 +235,12 @@ end
 ```
 
 ### 3.2 Creating a Join Table
+
+The migration method `create_join_table` creates a "has and belongs to many" join table – `create_join_table :products, :categories`.
+This creates a `categories_products` table with two columns called `category_id` and `product_id`.
+
+`create_join_table` also accepts a block which can be used to add indicies or additional columns.
+
+### 3.3 Changing Tables
 
 
