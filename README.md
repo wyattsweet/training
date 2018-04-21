@@ -2,13 +2,14 @@
 
 ## In Progress 
 - [HTML 5 - Structure, Syntax and Semantics](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html) Finish this
-- Tutorials Point Learn Ruby Programming
+- Practical OO Design in Ruby
 - [Rails Guides](http://guides.rubyonrails.org/)
 - React Docs 
 
 ## Next Up
+- Udacity: Intro to Computer Science
+- Full-stack for FE2
 - Mastering Chrome Dev Tools - FEM course
-
 
 ## Computer Science
 - [ ] [Computer Science 101](https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about) OR [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
