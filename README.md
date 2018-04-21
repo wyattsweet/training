@@ -18,6 +18,7 @@
 - [ ] [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)
 - [ ] [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387?utm_source=google&utm_medium=cpc&utm_campaign=google_search_dsa&gclid=CjwKCAiA4vbSBRBNEiwAMorER3cRvHNtDv1iT0KhI81zsphRVwxzXtIGdRzzIc7VJ9DM6bHEU8J8jRoC9w8QAvD_BwE)
 - [ ] [LevelDB and Crypto](https://frontendmasters.com/courses/leveldb-crypto/)
+- [ ] [Intro to Relational DBs](https://www.udacity.com/course/intro-to-relational-databases--ud197)
 - Refactoring 2nd Edition by Martin Fowler, Fall 2018
 
 **Additional topics to learn**
