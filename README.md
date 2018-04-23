@@ -1,14 +1,15 @@
 # Training Resources 
 
 ## In Progress 
-- [HTML 5 - Structure, Syntax and Semantics](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html) Finish this
 - Practical OO Design in Ruby
-- [Rails Guides](http://guides.rubyonrails.org/)
+- The Rails 5 way and [Rails Guides](http://guides.rubyonrails.org/)
 - React Docs 
+- [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
 
 ## Next Up
-- Udacity: Intro to Computer Science
 - Full-stack for FE2
+- Secrets of the JavaScript Ninja
+- [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/)
 - Mastering Chrome Dev Tools - FEM course
 
 ## Computer Science

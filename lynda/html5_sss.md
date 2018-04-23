@@ -245,3 +245,14 @@ roles are broken out into 4 categories
 - widget: menus, buttons, alerts, dialog boxes
 - document structure: articles, groups of content, hading
 - landmark roles: screen readers and other assistive technology are able to recognize landmark roles. Landmark roles include: navigation, main, form, search, content info, complementary, banner and application.
+
+### Introducing microformats, microdata and RDFs
+
+### Checking page semantics
+
+Google's structure data tool will test your semantics. Checks your [schema.org](http://schema.org/) micro syntaxes.
+
+[Google Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool)
+
+Extracted structured data. Shows any errors with the way you structured your data.
+
