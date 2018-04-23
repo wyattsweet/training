@@ -11,6 +11,7 @@
 - Secrets of the JavaScript Ninja
 - [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/)
 - Mastering Chrome Dev Tools - FEM course
+- Some Intro to programming in Go
 
 ## Computer Science
 - [ ] [Computer Science 101](https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about) OR [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
