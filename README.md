@@ -2,7 +2,7 @@
 
 ## In Progress 
 - Practical OO Design in Ruby
-- The Rails 5 way and [Rails Guides](http://guides.rubyonrails.org/)
+- [The Rails 5 way](http://proquest.safaribooksonline.com.ezproxy.sfpl.org/9780134657691) and [Rails Guides](http://guides.rubyonrails.org/)
 - React Docs 
 - [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
 
