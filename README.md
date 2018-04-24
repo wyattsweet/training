@@ -10,6 +10,7 @@
 - Full-stack for FE2
 - Secrets of the JavaScript Ninja
 - [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/)
+- Postgresql training
 - Mastering Chrome Dev Tools - FEM course
 - Some Intro to programming in Go
 
