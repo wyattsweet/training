@@ -11,3 +11,20 @@ Learn CS through the concept of building a search engine
 - rank pages
 
 Programming is the core of computer science
+
+Backus-Naur Form - precisely describe the language in a simple, concise way
+<non-terminal> -> replacement
+
+### Python Expressions
+
+Python Grammer for Arithmetic Expressions
+
+```
+Expression -> Expression Operator Expression
+Expression -> Number
+Operator -> +
+Operator -> *
+Number -> 0, 1, ...
+```
+
+<D-2>
