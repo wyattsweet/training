@@ -42,3 +42,4 @@ Everytime you run `bundle install` or `bundle update`, bundler will re-calculate
 New React apps get binstubs located in the `bin` folder. A binstub is a script which runs in the context on the bundle, which means you don't have to prefix `bundle exec` each time you run a rails executable command.
 
 ## [Startup Scripts](http://proquest.safaribooksonline.com.ezproxy.sfpl.org/book/programming/rails/9780134657691/cover-page/cover_xhtml#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODAxMzQ2NTc2OTElMkZzZWMxXzJfaHRtbCZxdWVyeT0=)
+
