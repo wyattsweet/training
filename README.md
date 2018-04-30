@@ -4,7 +4,7 @@
 - Practical OO Design in Ruby
 - [The Rails 5 way](http://proquest.safaribooksonline.com.ezproxy.sfpl.org/9780134657691) and [Rails Guides](http://guides.rubyonrails.org/)
 - React Docs 
-- [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
+- Networking: Stanford Introduction to Computer Networking and Computer Networking a Top Down Approach 
 
 ## Next Up
 - Full-stack for FE2
@@ -16,8 +16,8 @@
 
 ## Computer Science
 - [ ] [Computer Science 101](https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about) OR [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
-- [ ] [Networking for Web Developers](https://classroom.udacity.com/courses/ud256)
 - [ ] [Stanford Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
+- [ ] [Networking for Web Developers](https://classroom.udacity.com/courses/ud256)
 - [ ] [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)
 - [ ] [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387?utm_source=google&utm_medium=cpc&utm_campaign=google_search_dsa&gclid=CjwKCAiA4vbSBRBNEiwAMorER3cRvHNtDv1iT0KhI81zsphRVwxzXtIGdRzzIc7VJ9DM6bHEU8J8jRoC9w8QAvD_BwE)
 - [ ] [LevelDB and Crypto](https://frontendmasters.com/courses/leveldb-crypto/)
