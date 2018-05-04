@@ -44,3 +44,15 @@ If client A and client B are behind a NAT they have to communicate through a rel
 most common communication model of networked applications is bidirectional, reliable byte stream. Allows to communications to exchange data.
 
 ### [The 4 Layer Internet Model](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/courseware/ac9d1eef5aaa4bb5bcfe4d42f51f0f5b/09b18b9bd046403a93c85b82044ea603/)
+
+Describes hierarchy of operations that make up the internet. Layers are their to help the end host communicate reliably.
+
+Application – This can be http, bit-torrent. bi-directional reliable byte stream between two applications. They use application-specific semantics such as HTTP.
+
+Transport – Guarantees all data packets get delivered in order and uncorrupted. Most common is TCP (transmission control protocol). TCP provides a service to an application which guarantees correct, in-order delivery of data running on top of the network layer. UDP is an alternative to TCP, but offers no delivery guarantees.
+
+Network – networks job is to deliver packets end to end. Network layer packets are called **Data Grams**. Data and header with to and from address. Network layer hands the packet to the link layer. Link layer provides a service of transmiting data gram over one link. Data gram goes from network layer, over a link to a router where it gets passed back up to the network and repeats until it hits the destination. Network layer doesn't concern with how the data is sent, that's the link layers job.
+
+Network layer is "special", on the internet you must use the internet protocol (IP). IP makes a best effort attempt to deliver our datagrams to the other end, but it's not guaranteed. IP datagrams can get lost, be delivered out of order, or be corrupt.
+
+Link – bottom layer. Data is delivered hop by hop through links until it reaches its final destination. Data is delivered in packets. Packet contains data and a header which says where we want the data to be delivered, where it came from, etc. Link layers job is to carry the data over one link at a time. Ethernet and wifi are 2 examples of link layers.

@@ -78,3 +78,21 @@ There are 10 default initializers included in all Rails applications
     - configures your app to work with many JS frameworks out of the box.
 
 ## [1.4 Other Common Initializers](http://proquest.safaribooksonline.com.ezproxy.sfpl.org/book/programming/rails/9780134657691/cover-page/cover_xhtml#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODAxMzQ2NTc2OTElMkZzZWMxXzRfaHRtbCZxdWVyeT0=)
+
+Rails default timezone is UTC. Add an initializer script to change it `config.time_zone = 'Central Time (US & Canada)'`
+
+### 1.4.4 Load path Mods
+
+Rails looks for code in some standard dirs, including all nested dirs under app, such as `app/models`. This is called the load path. It's unusual, but possible to add dirs to the load path.
+
+You can supply a block to console to be evaluated when the environment is loaded via the terminal. Enables you to set console specific configs. You can set up helper methods such as the following.
+
+```ruby
+console do
+  def obie
+    User.where(email: "obiefernandez@gmail.com").first
+  end
+end
+```
+
+## 1.5 Spring Application Preloader
