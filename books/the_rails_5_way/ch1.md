@@ -96,3 +96,10 @@ end
 ```
 
 ## 1.5 Spring Application Preloader
+
+## 1.6 Development Mode
+
+auto reloading when you make a change in your application is handled in the `config.cache_classes` setting.
+When Rails encounters a unidentified constant in the code, it uses a class loader routine based on file name conventions.
+Rails has the concept of a load path which tells the class loader where to search.
+In the console if you run `$LOAD_PATH`, you will see it.
