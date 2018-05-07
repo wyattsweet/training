@@ -103,3 +103,22 @@ auto reloading when you make a change in your application is handled in the `con
 When Rails encounters a unidentified constant in the code, it uses a class loader routine based on file name conventions.
 Rails has the concept of a load path which tells the class loader where to search.
 In the console if you run `$LOAD_PATH`, you will see it.
+
+#### 1.6.1.2 Rails, Modules and Auto-Loading Code
+
+Rails does not require you to `require` code from another file. Instead it follows a convention that allows Rails to auto-load your code.
+If rails encounters a class called `EstimationCalculator` it will require a file by the name of `estimation_calculator`.
+If the class or module is nested such as `MacGyver::SwissArmyKnife` rails looks to require `mac_gyver/swiss_army_knife`.
+These directories should be somewhere in Ruby's load path such as `app`, `lib` or one of their subdirectories.
+**If you follow naming conventions, you should never need to explicitly `require` Ruby code.**
+
+### 1.6.2 Eager Load
+
+To speed up boot time of the Rails server, libraries are loaded on an as-needed basis (lazy loading).
+This is governed by the `config.eager_load` setting. 
+
+`config.eager_load = false`
+
+For production you would want this set to true.
+
+### 1.6.3 Error Reports
