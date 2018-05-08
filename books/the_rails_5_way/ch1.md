@@ -122,3 +122,23 @@ This is governed by the `config.eager_load` setting.
 For production you would want this set to true.
 
 ### 1.6.3 Error Reports
+
+set `config.consider_all_requests_local = true` when developing to generate useful error messages
+
+### 1.6.4 Caching
+
+Typically you do not want caching in development unless you are testing caching.
+Caching is determined by the presence of `tmp/caching-dev.txt`, this is done to make it explicit because unexpected caching behaviour can be subtle and tricky to diagnose.
+
+## 1.7 Test Mode
+
+whenever you run a Rails application in test mode (the value of `RAILS_ENV = test`), then the settings in `config/environments/test.rb` are in effect.
+
+## 1.8 Production Mode
+
+`config/environments/production.rb` is what's used when your app is in production mode.
+
+## 1.9 Configuring a Database
+
+The `config/database.yml` file contains all the configs for connecting to a database.
+Best practice among Rails devs is to not store your `database.yml` file in version control, so somebody malicious can't access it and also because it's common for devs to have different database configs.
