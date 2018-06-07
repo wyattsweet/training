@@ -142,3 +142,7 @@ whenever you run a Rails application in test mode (the value of `RAILS_ENV = tes
 
 The `config/database.yml` file contains all the configs for connecting to a database.
 Best practice among Rails devs is to not store your `database.yml` file in version control, so somebody malicious can't access it and also because it's common for devs to have different database configs.
+
+## 1.10 Configure Application Secrets
+
+

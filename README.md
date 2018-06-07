@@ -7,12 +7,17 @@
 - Networking: Stanford Introduction to Computer Networking and Computer Networking a Top Down Approach 
 
 ## Next Up
+- [Khan Academy - statistics and probability](https://www.khanacademy.org/math/statistics-probability)
+- [Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170)
+- [SQL For Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198)
+- [Database Systems, Concepts and Designs](https://www.udacity.com/course/database-systems-concepts-design--ud150)
+- [Learning PostgreSQL 10](https://www.amazon.com/Learning-PostgreSQL-beginners-high-performance-solutions-ebook/dp/B077NQGV1G/ref=sr_1_3?ie=UTF8&qid=1528346265&sr=8-3&keywords=postgresql)
 - Full-stack for FE2
 - Secrets of the JavaScript Ninja
 - [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/)
 - Postgresql training
 - Mastering Chrome Dev Tools - FEM course
-- Some Intro to programming in Go
+- Go
 
 ## Computer Science
 - [ ] [Computer Science 101](https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about) OR [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
