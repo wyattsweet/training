@@ -3,12 +3,11 @@
 ## In Progress 
 - Practical OO Design in Ruby
 - [The Rails 5 way](http://proquest.safaribooksonline.com.ezproxy.sfpl.org/9780134657691) and [Rails Guides](http://guides.rubyonrails.org/)
-- React Docs 
-- Networking: Stanford Introduction to Computer Networking and Computer Networking a Top Down Approach 
+- [Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170)
+- [Stanford Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
 
 ## Next Up
 - [Khan Academy - statistics and probability](https://www.khanacademy.org/math/statistics-probability)
-- [Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170)
 - [SQL For Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198)
 - [Database Systems, Concepts and Designs](https://www.udacity.com/course/database-systems-concepts-design--ud150)
 - [Learning PostgreSQL 10](https://www.amazon.com/Learning-PostgreSQL-beginners-high-performance-solutions-ebook/dp/B077NQGV1G/ref=sr_1_3?ie=UTF8&qid=1528346265&sr=8-3&keywords=postgresql)
@@ -20,7 +19,6 @@
 - Go
 
 ## Computer Science
-- [ ] [Computer Science 101](https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about) OR [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
 - [ ] [Stanford Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
 - [ ] [Networking for Web Developers](https://classroom.udacity.com/courses/ud256)
 - [ ] [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)
@@ -29,16 +27,20 @@
 - [ ] [Intro to Relational DBs](https://www.udacity.com/course/intro-to-relational-databases--ud197)
 - Refactoring 2nd Edition by Martin Fowler, Fall 2018
 
-**Additional topics to learn**
+### Databases
+- [ ] [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql/)
+- [ ] [Learning PostgreSQL 10](https://www.amazon.com/Learning-PostgreSQL-beginners-high-performance-solutions-ebook/dp/B077NQGV1G/ref=sr_1_3?ie=UTF8&qid=1528346265&sr=8-3&keywords=postgresql)
 
-- [ ] Statistics
-- [ ] Linear Algebra
-- [ ] Data Science and Data Analysis
+## Data Science
+- [ ] [Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170)
+- [ ] [Khan Academy - statistics and probability](https://www.khanacademy.org/math/statistics-probability)
+- [ ] [SQL For Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198)
+- [ ] [Database Systems, Concepts and Designs](https://www.udacity.com/course/database-systems-concepts-design--ud150)
 
 ## JavaScript
 - [ ] Secrets of the javaScript Ninja
 - [ ] [Mostly Adequate Guide to Functional Programming in JS](https://github.com/MostlyAdequate/mostly-adequate-guide)
-- [Learning JavaScript Design Patterns](https://github.com/addyosmani/essential-js-design-patterns)
+- [ ] [Learning JavaScript Design Patterns](https://github.com/addyosmani/essential-js-design-patterns)
 - [ ] [Asynchronous Programming in JavaScript](https://frontendmasters.com/courses/asynchronous-javascript/)
 - [ ] [Advanced Asynchronous JavaScript](https://frontendmasters.com/courses/advanced-async-js/)
 - [ ] [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
@@ -107,8 +109,6 @@
 - [ ] Babel
 - [ ] ESLint
 
-## Databases
-- [ ] [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql/)
 
 ## Non-Coding Resources
 - [ ] [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn)
