@@ -36,6 +36,7 @@
 - [ ] [Khan Academy - statistics and probability](https://www.khanacademy.org/math/statistics-probability)
 - [ ] [SQL For Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198)
 - [ ] [Database Systems, Concepts and Designs](https://www.udacity.com/course/database-systems-concepts-design--ud150)
+- Programming with Python and R
 
 ## JavaScript
 - [ ] Secrets of the javaScript Ninja

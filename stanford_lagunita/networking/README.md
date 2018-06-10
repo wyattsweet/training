@@ -146,3 +146,48 @@ You can use `traceroute -w 1 URL` to see the hops that a request takes to reach 
 You can use Wireshark to see the stream of packets using an application called Wireshark.
 
 ### [1.5 The Principle of Packet Switching](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/courseware/ac9d1eef5aaa4bb5bcfe4d42f51f0f5b/044d0bb484224000b85c71caa82b1f4a/)
+
+High level ideas on packet switching, Unit 3 is entirely dedicated to the topic.
+
+**packet** – A self-contained unit of data that carries information necessary for it to reach its destination.
+
+**packet switching** – Independently for each arriving packet, pick its outgoing link. If the link is free, send it else hold it for later.
+
+**src routing** is when the source picks the entire path the packet should take to the destination, this is supported by the internet but it's typically not used. Typically, the packet only has a destination. Each switch (point in the network) has a table where based on the destination, it knows the next hop the packet should take.
+
+Packet Switching has two consequences
+1. Simple packet forwarding.
+2. Efficient sharing of links.
+
+**Flow** – A collection of datagrams belonging to same end-to-end communication, e.g. a TCP connection.
+
+Packet switches don't need state for each flow – each packet is self-contained
+No per-flow state to be added/removed.
+No per-flow state to be stored.
+No per-flow state to be changed upon failure.
+
+Efficient sharing of links
+
+Data traffic is bursty, when you load a web page or stream a video it's a burst of traffic.
+
+When 2 people are browsing the internet on the same wifi router, packet switching allows the router to give you all available links if the other person is reading and vice versa. It's also able to share link capacity if both people are transferring data. This idea of taking one resource and sharing it across multiple users in a probabalistic or statistical way is called **statistical multiplexing.**
+
+Packet switches are simple: they forward packets independently.
+Packet switching is efficient: Allows us to efficiently share the capacity among many flows.
+
+### [1.6 The Principle of Layering](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/courseware/ac9d1eef5aaa4bb5bcfe4d42f51f0f5b/80c800dcd1bd434689867b30cbd5fc7e/)
+
+Layering has been used in networking for decades and used outside networking as well.
+
+**Layering** The organization of a system into a number of seperate functional components, or layers.
+
+Layers communicate sequentially to the layer above and below.
+Lower layers abstract away the details from the layers above. Lower layers provide the layers above with a well defined interface the layers can interact with.
+
+Reasons for Layering
+- Modularity
+- Well defined service
+- reuse
+- separation of concerns
+- continuous improvement
+*- peer-to-peer communications*
