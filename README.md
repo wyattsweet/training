@@ -3,11 +3,12 @@
 ## In Progress 
 - Practical OO Design in Ruby
 - [The Rails 5 way](http://proquest.safaribooksonline.com.ezproxy.sfpl.org/9780134657691) and [Rails Guides](http://guides.rubyonrails.org/)
-- [Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170)
 - [Stanford Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
+- [Udacity Programming Foundations with Python](https://classroom.udacity.com/courses/ud036)
 
 ## Next Up
 - [Khan Academy - statistics and probability](https://www.khanacademy.org/math/statistics-probability)
+- [Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170) *Python is a pre req*
 - [SQL For Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198)
 - [Database Systems, Concepts and Designs](https://www.udacity.com/course/database-systems-concepts-design--ud150)
 - [Learning PostgreSQL 10](https://www.amazon.com/Learning-PostgreSQL-beginners-high-performance-solutions-ebook/dp/B077NQGV1G/ref=sr_1_3?ie=UTF8&qid=1528346265&sr=8-3&keywords=postgresql)
