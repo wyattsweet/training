@@ -154,7 +154,7 @@ High level ideas on packet switching, Unit 3 is entirely dedicated to the topic.
 **packet switching** – Independently for each arriving packet, pick its outgoing link. If the link is free, send it else hold it for later.
 
 **src routing** is when the source picks the entire path the packet should take to the destination, this is supported by the internet but it's typically not used. Typically, the packet only has a destination. Each switch (point in the network) has a table where based on the destination, it knows the next hop the packet should take.
-
+ 
 Packet Switching has two consequences
 1. Simple packet forwarding.
 2. Efficient sharing of links.
@@ -191,3 +191,37 @@ Reasons for Layering
 - separation of concerns
 - continuous improvement
 *- peer-to-peer communications*
+
+### [1.7 The Principle of Encapsulation](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/courseware/ac9d1eef5aaa4bb5bcfe4d42f51f0f5b/a8ad1733253c4ca3b5dd41ad62437074/)
+
+- The result of combining layering and packet switching
+
+- The principle by which you organize information within packets so you can maintain layers, but share contents.
+
+#### Looking at it from the perspective of the 4 Layer Model
+
+- How layering manifests in data representaion
+- Layer N data is payload to layer N-1
+- Example
+  - HTTP (web) app payload in
+  - a TCP transport segment in
+  - an IP network packet in
+  - a WIFI link frame
+
+![encapsulation](./encapsulation.png)
+
+One way of writing packets, sometimes they are drawn in reverse
+
+#### Encapsulation Flexibility
+
+- Encapsulation allows you to layer recursively
+- Example: VPN
+  - HTTP app payload in
+  - a TCP transport segment in
+  - an IP network packet in
+  - a secure TLS presentation message in
+  - a TCP transport segment in
+  - an IP network packet in
+  - an Ethernet link frame
+
+### [Byte Order and Packet Formats](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/courseware/ac9d1eef5aaa4bb5bcfe4d42f51f0f5b/230b3ae20eca407cb37fd1665bcf1878/)
