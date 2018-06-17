@@ -4,7 +4,7 @@
 - Practical OO Design in Ruby
 - [The Rails 5 way](http://proquest.safaribooksonline.com.ezproxy.sfpl.org/9780134657691) and [Rails Guides](http://guides.rubyonrails.org/)
 - [Stanford Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
-- [Udacity Programming Foundations with Python](https://classroom.udacity.com/courses/ud036)
+- Book: Python Crash Course
 
 ## Next Up
 - [Khan Academy - statistics and probability](https://www.khanacademy.org/math/statistics-probability)
