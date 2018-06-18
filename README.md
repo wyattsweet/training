@@ -7,7 +7,7 @@
 - Book: Python Crash Course
 
 ## Next Up
-- [Khan Academy - statistics and probability](https://www.khanacademy.org/math/statistics-probability)
+- [Probability & Statistics – Stanford Lagunita](https://lagunita.stanford.edu/courses/course-v1:OLI+ProbStat+Open_Jan2017/about)
 - [Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170) *Python is a pre req*
 - [SQL For Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198)
 - [Database Systems, Concepts and Designs](https://www.udacity.com/course/database-systems-concepts-design--ud150)
