@@ -2,12 +2,12 @@
 
 ## In Progress 
 - Practical OO Design in Ruby
-- [The Rails 5 way](http://proquest.safaribooksonline.com.ezproxy.sfpl.org/9780134657691) and [Rails Guides](http://guides.rubyonrails.org/)
-- [Stanford Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
-- Book: Python Crash Course
 
 ## Next Up
 - [Probability & Statistics – Stanford Lagunita](https://lagunita.stanford.edu/courses/course-v1:OLI+ProbStat+Open_Jan2017/about)
+- Book: Python Crash Course
+- [The Rails 5 way](http://proquest.safaribooksonline.com.ezproxy.sfpl.org/9780134657691) and [Rails Guides](http://guides.rubyonrails.org/)
+- [Stanford Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
 - [Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170) *Python is a pre req*
 - [SQL For Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198)
 - [Database Systems, Concepts and Designs](https://www.udacity.com/course/database-systems-concepts-design--ud150)
@@ -29,6 +29,9 @@
 - [ ] [Intro to Relational DBs](https://www.udacity.com/course/intro-to-relational-databases--ud197)
 - Refactoring 2nd Edition by Martin Fowler, Fall 2018
 - [ ] [How To Learn C](https://blog.bradfieldcs.com/how-to-learn-c-59222a627a4c)
+
+## Special Topics
+- [ ] [Udacity: AI for Traders](https://www.udacity.com/course/ai-for-trading--nd880?bsft_eid=a945b93a-0b8c-0340-21c9-e8933dbe9dfe&utm_campaign=acq_100_2018-08-02_nd880_launch_na&utm_source=blueshift&utm_medium=email&utm_content=acq_100_2018-08-02_nd880_launch-b_na&bsft_clkid=b93d44ff-e4ab-4739-a849-a2cd2a60b2c4&bsft_uid=8bfdd549-a230-44d6-98f4-6664874b39df&bsft_mid=33dd6643-6db2-4ec4-b824-a0d8a8018f2e)
 
 ### Databases
 - [ ] [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql/)
