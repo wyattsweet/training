@@ -20,6 +20,7 @@
 - Go
 
 ## Computer Science
+- [ ] [Teach Yourself CS](https://teachyourselfcs.com/)
 - [ ] [Stanford Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
 - [ ] [Networking for Web Developers](https://classroom.udacity.com/courses/ud256)
 - [ ] [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)
@@ -27,6 +28,7 @@
 - [ ] [LevelDB and Crypto](https://frontendmasters.com/courses/leveldb-crypto/)
 - [ ] [Intro to Relational DBs](https://www.udacity.com/course/intro-to-relational-databases--ud197)
 - Refactoring 2nd Edition by Martin Fowler, Fall 2018
+- [ ] [How To Learn C](https://blog.bradfieldcs.com/how-to-learn-c-59222a627a4c)
 
 ### Databases
 - [ ] [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql/)
@@ -113,6 +115,7 @@
 
 
 ## Non-Coding Resources
+- [ ] HACKINTOSH
 - [ ] [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn)
 - [ ] [Electronics Classes](http://www.instructables.com/classes/tagged/electronics/)
 - It Doesn’t Have to be crazy at work, Fall 2018
