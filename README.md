@@ -101,8 +101,8 @@
 - [ ] C++
 - [ ] C
 - [ ] Java
-- [ ] (ReasonML)[https://reasonml.github.io/]
-- [ ] (OCaml)[http://ocaml.org/]
+- [ ] [ReasonML](https://reasonml.github.io/)
+- [ ] [OCaml](http://ocaml.org/)
 
 ## Environment and Build Systems
 - [ ] [Webpack](https://webpack.js.org/concepts/)
