@@ -122,14 +122,14 @@
 ## Docs
 
 - [Redux](https://redux.js.org/)
-- [ ] Webpack
-- [ ] Babel
-- [ ] Typescript 
-- [ ] [React Router](https://reacttraining.com/react-router/)
-- [ ] NPM
-- [ ] [Underscore](http://underscorejs.org/)
-- [ ] [css next](http://cssnext.io/)
-- [ ] CSS Modules
-- [ ] [ReabbitMQ](http://www.rabbitmq.com/getstarted.html)
-- [ ] [Gatsbyjs](https://www.gatsbyjs.org/)
-- [ ] [Express](https://expressjs.com/)
+- Webpack
+- Babel
+- Typescript 
+- [React Router](https://reacttraining.com/react-router/)
+- NPM
+- [Underscore](http://underscorejs.org/)
+- [css next](http://cssnext.io/)
+- CSS Modules
+- [ReabbitMQ](http://www.rabbitmq.com/getstarted.html)
+- [Gatsbyjs](https://www.gatsbyjs.org/)
+- [Express](https://expressjs.com/)
