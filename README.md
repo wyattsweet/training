@@ -1,34 +1,24 @@
 # Training Resources 
 
 ## In Progress 
-- Practical OO Design in Ruby
-
-## Next Up
-- [Probability & Statistics – Stanford Lagunita](https://lagunita.stanford.edu/courses/course-v1:OLI+ProbStat+Open_Jan2017/about)
-- Book: Python Crash Course
-- [The Rails 5 way](http://proquest.safaribooksonline.com.ezproxy.sfpl.org/9780134657691) and [Rails Guides](http://guides.rubyonrails.org/)
-- [Stanford Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
-- [Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170) *Python is a pre req*
-- [SQL For Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198)
-- [Database Systems, Concepts and Designs](https://www.udacity.com/course/database-systems-concepts-design--ud150)
-- [Learning PostgreSQL 10](https://www.amazon.com/Learning-PostgreSQL-beginners-high-performance-solutions-ebook/dp/B077NQGV1G/ref=sr_1_3?ie=UTF8&qid=1528346265&sr=8-3&keywords=postgresql)
-- Full-stack for FE2
-- Secrets of the JavaScript Ninja
-- [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/)
-- Postgresql training
-- Mastering Chrome Dev Tools - FEM course
-- Go
+- [ ] [Learn GraphQL](http://graphql.github.io/learn/)
+- Book: Learning PostgreSQL 10
 
 ## Computer Science
 - [ ] [Teach Yourself CS](https://teachyourselfcs.com/)
-- [ ] [Stanford Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
-- [ ] [Networking for Web Developers](https://classroom.udacity.com/courses/ud256)
 - [ ] [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)
-- [ ] [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387?utm_source=google&utm_medium=cpc&utm_campaign=google_search_dsa&gclid=CjwKCAiA4vbSBRBNEiwAMorER3cRvHNtDv1iT0KhI81zsphRVwxzXtIGdRzzIc7VJ9DM6bHEU8J8jRoC9w8QAvD_BwE)
 - [ ] [LevelDB and Crypto](https://frontendmasters.com/courses/leveldb-crypto/)
 - [ ] [Intro to Relational DBs](https://www.udacity.com/course/intro-to-relational-databases--ud197)
 - Refactoring 2nd Edition by Martin Fowler, Fall 2018
 - [ ] [How To Learn C](https://blog.bradfieldcs.com/how-to-learn-c-59222a627a4c)
+
+## Networking
+- [ ] [Stanford Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
+- [ ] [Networking for Web Developers](https://classroom.udacity.com/courses/ud256)
+
+## Mathematics
+- [Probability & Statistics – Stanford Lagunita](https://lagunita.stanford.edu/courses/course-v1:OLI+ProbStat+Open_Jan2017/about)
+- [ ] [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387?utm_source=google&utm_medium=cpc&utm_campaign=google_search_dsa&gclid=CjwKCAiA4vbSBRBNEiwAMorER3cRvHNtDv1iT0KhI81zsphRVwxzXtIGdRzzIc7VJ9DM6bHEU8J8jRoC9w8QAvD_BwE)
 
 ## Special Topics
 - [ ] [Udacity: AI for Traders](https://www.udacity.com/course/ai-for-trading--nd880?bsft_eid=a945b93a-0b8c-0340-21c9-e8933dbe9dfe&utm_campaign=acq_100_2018-08-02_nd880_launch_na&utm_source=blueshift&utm_medium=email&utm_content=acq_100_2018-08-02_nd880_launch-b_na&bsft_clkid=b93d44ff-e4ab-4739-a849-a2cd2a60b2c4&bsft_uid=8bfdd549-a230-44d6-98f4-6664874b39df&bsft_mid=33dd6643-6db2-4ec4-b824-a0d8a8018f2e)
@@ -36,13 +26,18 @@
 ### Databases
 - [ ] [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql/)
 - [ ] [Learning PostgreSQL 10](https://www.amazon.com/Learning-PostgreSQL-beginners-high-performance-solutions-ebook/dp/B077NQGV1G/ref=sr_1_3?ie=UTF8&qid=1528346265&sr=8-3&keywords=postgresql)
+- [ ] [Database Systems, Concepts and Designs](https://www.udacity.com/course/database-systems-concepts-design--ud150)
 
-## Data Science
+## Data Analaysis/Science
+- [ ] [Learn Python](http://learnpython.org/)
 - [ ] [Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170)
 - [ ] [Khan Academy - statistics and probability](https://www.khanacademy.org/math/statistics-probability)
 - [ ] [SQL For Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198)
-- [ ] [Database Systems, Concepts and Designs](https://www.udacity.com/course/database-systems-concepts-design--ud150)
 - Programming with Python and R
+
+## GraphQL
+- [ ] [Learn GraphQL](http://graphql.github.io/learn/)
+- [ ] [How to GraphQL](https://www.howtographql.com/)
 
 ## JavaScript
 - [ ] Secrets of the javaScript Ninja
@@ -53,7 +48,6 @@
 - [ ] [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 - [ ] [Regular Expressions in JavaScript](http://eloquentjavascript.net/09_regexp.html)
 - [ ] [Eloquent JavaScript](http://eloquentjavascript.net/)
-- [ ] [How to GraphQL](https://www.howtographql.com/)
 - [ ] [Cycle.js - A functional and reactive javaScript framework](https://cycle.js.org/)
 - [ ] [RxJS - A Reactive programming library for JavaScript](https://github.com/ReactiveX/RxJS)
 - [x] [Deep JS Foundations](https://frontendmasters.com/courses/javascript-foundations/)
@@ -61,9 +55,9 @@
 
 ## Ruby
 
-- [ ] [Tutorials Point Learn Ruby Programming](https://www.tutorialspoint.com/ruby/index.htm)
-- [ ] Practical Object Oriented Ruby
 - [ ] [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/)
+- [ ] [Tutorials Point Learn Ruby Programming](https://www.tutorialspoint.com/ruby/index.htm)
+- [x] Practical Object Oriented Ruby
 - [ ] The Well Grounded Rubyist, July 2018
 - [ ] [Virtuous Code - Avdi Grimm](http://www.virtuouscode.com/)
 - [ ] [Drifting Ruby](https://www.driftingruby.com/)
