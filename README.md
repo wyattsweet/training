@@ -112,13 +112,12 @@
 
 
 ## Non-Coding Resources
+- [ ] [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-lear://www.coursera.org/learn/learning-how-to-learn)
 - [ ] HACKINTOSH
 - [ ] [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn)
 - [ ] [Electronics Classes](http://www.instructables.com/classes/tagged/electronics/)
 - It Doesn’t Have to be crazy at work, Fall 2018
 - [ ] [Intro to Self Driving Cars Engineering](https://www.udacity.com/course/intro-to-self-driving-cars--nd113)
-
-## Books
 
 ## Docs
 
