@@ -256,3 +256,51 @@ The **operation type** is either `query`, `mutation` or `subscription`. This is 
 **operation name** is similar to a function name and aids when trying to debug. It's much easier to debug a query that's failing if you get a name in your logs as opposed to trying to decipher based on the content.
 
 ### Variables
+
+GraphQL has a first-class way to factor dynamic values out of the query and pass them in a separate dictionary. These values are called variables 
+
+When working with variables
+1. Replace the static files with `$variableName`
+- Declare `$variableName`
+- Pass `variableName: value` in the separate dictionary. This will be transport specific (usually JSON)
+
+```
+query HeroNameAndFriends($episode: Episode) {
+  hero(episode: $episode) {
+    name
+    friends {
+      name
+    }
+  }
+}
+```
+
+*variable*
+```
+{
+  "episode": "JEDI"
+}
+```
+
+You should never use string interpolation to construct queries
+
+### Variable Definition
+
+The variable definition is the `$episode: Episode` part in the query above. This is just like argument definitions for functions in a typed language. The variable is listed, `$episode`, followed by its type `Episode`.
+Declared variables must be either `scalars`, `enums` or `input` object types. If you want to pass a complex object, you need to know which input type matches on the server.
+
+Variables can be optional or required. In the example above a `!` would be used next to the `Episode` type to denote it's a required field.
+
+### Default Variables
+
+Default variables can be assigned to variables like so
+
+```
+query HeroNameAndFriends($episode: Episode = 'JEDI') { ... }
+```
+
+When variables are passed in, they will override the default
+
+### Directives
+
+
