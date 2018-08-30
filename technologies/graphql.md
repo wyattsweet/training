@@ -303,4 +303,145 @@ When variables are passed in, they will override the default
 
 ### Directives
 
+Directives allow you to dynamically change the structure and shape of your queries. Example query where friends are conditionally added.
+
+*query using directive*
+```
+query Hero($episode: Episode, $withFriends: Boolean!) {
+  hero(episode: $episode) {
+    name
+    friends @include(if: $withFriends) {
+      name
+    }
+  }
+}
+```
+
+*variables, if withFriends is true, friends will be queried for*
+
+```
+{
+  "episode": "JEDI",
+  "withFriends": true
+}
+```
+
+A directive can be included in a field or fragment inclusion. The core GraphQL spec includes exactly two directives, which must be supported by any GraphQL spec-compliant server –
+
+1. `@include(if: Boolean)` Only include if the result of the argument is true
+- `@skip(if: Boolean)` skip if argument is true
+
+### Mutations
+
+Any operation that could cause a data write, should be done in a mutation query.
+
+*mutation query where nested fields are requested on return*
+
+```
+mutation CreateReviewForEpisode($ep: Episode!, $review: ReviewInput!) {
+  createReview(episode: $ep, review: $review) {
+    stars
+    commentary
+  }
+}
+```
+
+*variable*
+
+```json
+{
+  "ep": "JEDI",
+  "review": {
+    "stars": 5,
+    "commentary": "This is a great movie!"
+  }
+}
+```
+
+*response*
+```json
+{
+  "data": {
+    "createReview": {
+      "stars": 5,
+      "commentary": "This is a great movie!"
+    }
+  }
+}
+```
+
+`createReview` returns the `stars` and `commentary` fields of the newly created review.
+We pass in `review` which isn't a scalar data type but a input object type.
+
+The main difference between queries and mutations is *while query fields run in parallel, mutation fields run one at a time, one after the other*
+
+If you send two mutations in one request, the first is guaranteed to finish before the second.
+
+### Inline Fragments
+
+Sometimes your query will return data that could be of multiple types (union type) or query. Each of these types may have different fields
+
+```
+query HeroForEpisode($ep: Episode!) {
+  hero(episode: $ep) {
+    name
+    ... on Droid {
+      primaryFunction
+    }
+
+    ... on Human {
+      height
+    }
+  }
+}
+```
+
+In the above query the `name` field is always present and `primaryFunction` if the return type from `hero` is `Droid` and `height` if the return type is `Human`. The return type will depend upon which episode is passed in.
+
+### Meta Fields
+
+Sometimes you don't know what type you'll get back from the GraphQL services. GraphQL allows you to request `__typename`, a meta field, at any point in the query to get the name of the object type at that point.
+
+*request*
+
+```
+{
+  search(text: "an") {
+    __typename
+    ... on Human {
+      name
+    }
+    ... on Droid {
+      name
+    }
+    ... on Starship {
+      name
+    }
+  }
+  }
+```
+
+*response*
+
+```json
+{
+  "data": {
+    "search": [
+      {
+        "__typename": "Human",
+        "name": "Han Solo"
+      },
+      {
+        "__typename": "Human",
+        "name": "Leia Organa"
+      },
+      {
+        "__typename": "Starship",
+        "name": "TIE Advanced x1"
+      }
+    ]
+  }
+}
+```
+
 
