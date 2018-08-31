@@ -441,7 +441,13 @@ Sometimes you don't know what type you'll get back from the GraphQL services. Gr
       }
     ]
   }
-}
+}:
 ```
+
+## Schemas and Types
+
+### Type System
+
+Schemas tell you what type of data you can ask for, what fields you can select, etc. Every GraphQL service defines a set of types, then when queries come in, they are validated and executed against the schema.
 
 
