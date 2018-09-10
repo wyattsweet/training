@@ -19,6 +19,7 @@
 ## Mathematics
 - [Probability & Statistics – Stanford Lagunita](https://lagunita.stanford.edu/courses/course-v1:OLI+ProbStat+Open_Jan2017/about)
 - [ ] [Applied Cryptography](https://www.udacity.com/course/applied-cryptography--cs387?utm_source=google&utm_medium=cpc&utm_campaign=google_search_dsa&gclid=CjwKCAiA4vbSBRBNEiwAMorER3cRvHNtDv1iT0KhI81zsphRVwxzXtIGdRzzIc7VJ9DM6bHEU8J8jRoC9w8QAvD_BwE)
+- [ ] [Relational Algebra](https://lagunita.stanford.edu/courses/DB/RA/SelfPaced/about)
 
 ## Special Topics
 - [ ] [Udacity: AI for Traders](https://www.udacity.com/course/ai-for-trading--nd880?bsft_eid=a945b93a-0b8c-0340-21c9-e8933dbe9dfe&utm_campaign=acq_100_2018-08-02_nd880_launch_na&utm_source=blueshift&utm_medium=email&utm_content=acq_100_2018-08-02_nd880_launch-b_na&bsft_clkid=b93d44ff-e4ab-4739-a849-a2cd2a60b2c4&bsft_uid=8bfdd549-a230-44d6-98f4-6664874b39df&bsft_mid=33dd6643-6db2-4ec4-b824-a0d8a8018f2e)
