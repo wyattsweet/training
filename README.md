@@ -12,6 +12,10 @@
 - Refactoring 2nd Edition by Martin Fowler, Fall 2018
 - [ ] [How To Learn C](https://blog.bradfieldcs.com/how-to-learn-c-59222a627a4c)
 
+## Algorithms
+- [ ] [CSE373 Analysis of Algorithms](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [Resources](http://www3.cs.stonybrook.edu/~skiena/373/) 
+    - [Syllabus](http://www3.cs.stonybrook.edu/~skiena/373/syllabus.pdf) 
 ## Networking
 - [ ] [Stanford Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
 - [ ] [Networking for Web Developers](https://classroom.udacity.com/courses/ud256)
