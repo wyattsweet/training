@@ -31,9 +31,12 @@ cover letter should be
 - 2 to 3 body paragraphs
 - conclusion
 
-Pick a job that interests you, one you're qualified for but even better pick your ideal job even if you need to develop more skills before you can pursue it. This allows you to pinpoint areas you need to develop.
+Pick a job that interests you, pick your ideal job that may require you to develop more skills before you can pursue it. This allows you to pinpoint areas you need to develop.
 
-Look at description and notice the skills you have and are exceptionally good at and the skills you may not have.
+Look at the job description –
+- pinpoint the skils you have
+- The Skills you are exceptionally good at
+- The skills you may not have
 
 ### Write the Introduction
 
