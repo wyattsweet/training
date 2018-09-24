@@ -450,4 +450,21 @@ Sometimes you don't know what type you'll get back from the GraphQL services. Gr
 
 Schemas tell you what type of data you can ask for, what fields you can select, etc. Every GraphQL service defines a set of types, then when queries come in, they are validated and executed against the schema.
 
+### Object types and fields
 
+object types are the most basic element in a graphQL schema. They represent a type of object you can fetch from your service, the fields it has, and the type of each field.
+
+```
+type Character {
+  name: String!
+  appearsIn: [Episode]!
+}
+```
+
+`Character` is a GraphQL object type
+`name` and `appearsIn` are fields on the `Character type`
+`String` is one of the built-in scalar types
+`String!` means this is a required field and the API will always return a value for this field
+`[Episode]!` represents an array of `Episode` objects. It is also `non-nullable`, so you can always expect a value
+
+### Arguments
