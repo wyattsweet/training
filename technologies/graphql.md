@@ -468,3 +468,58 @@ type Character {
 `[Episode]!` represents an array of `Episode` objects. It is also `non-nullable`, so you can always expect a value
 
 ### Arguments
+
+Each field on a GraphQL object can have arguments. The length field below takes a unit argument.
+
+```
+type Starship {
+  id: ID!
+  name: String!
+  length(unit: LengthUnit = METER): Float
+}
+```
+
+All arguments are named, unlike JS where they are ordered. 
+
+### Query and Mutation Type
+
+Every GraphQL service will have a query type and may have a mutation type. These define the entry point of every GraphQL query. A query like this –
+
+*query*
+```
+query {
+  hero {
+    name 
+  }
+  droid(id: "2000") {
+    name
+  }
+}
+```
+
+*response*
+```
+{
+  "data": {
+    "hero": {
+      "name": "R2-D2"
+    },
+    "droid": {
+      "name": "C-3PO"
+    }
+  }
+}
+```
+
+The GraphQL service needs to have the following `Query` type
+
+```
+type Query {
+  hero(episode: Episode): Character
+  droid(id: ID!): Droid
+}
+```
+
+mutations work in a similar way. You define fields on a mutation type and those are available as the fields you can call in your query.
+
+### Scalar types
