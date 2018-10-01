@@ -110,4 +110,58 @@ define is called the keywork, the whole expression
 
 is considered a special expression because `define` isn't evaluated first.
 
+## [Lecture 2: Functional Programming 2](https://archive.org/details/ucberkeley_webcast_TTK2lZoWbPQ)
 
+Computer science isn't as much about science as it is about engineering. Scientist ask questions about how the world works. Engineers accept how the world works and then build stuff on top of it.
+
+It's also not about computers. Electrical engineers are concerned with how computers are built but CS is really about software. Software Engineering would be a more suitable term.
+
+Computer programming is easy if programs are small and the whole thing can fit in your head.
+
+**computer science is about the control of complexity**
+
+Another term for the field could be complexity control.
+
+In order to control complexity we use programming paradigms, which is what this course is about.
+
+- Functional
+- OOP
+- Client/Server
+- Declarative
+
+**Layers of Abstraction**
+
+Application
+
+---
+
+High Level Languages (eg. Scheme) – Think more about the problem you're trying to solve
+
+---
+
+Low Level Languages (eg. C) – Keep the details of how the computer works in the forefront
+
+---
+
+Machine Language / Architecture
+
+---
+
+Logic Gates – Circuits that compute boolean functions
+
+---
+
+Transistors – a remote controlled switch
+
+---
+
+Quantum Physics – The behavior of sub atomic particles, make transistors do what they do
+
+Abstract means built on top of other pieces.
+With abstraction we are making bigger pieces out of smaller pieces.
+
+**What is a function?**
+
+A relationship that has 0 or more inputs and 1 output.
+
+*left off 23:33 into video*
