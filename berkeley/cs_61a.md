@@ -163,5 +163,12 @@ With abstraction we are making bigger pieces out of smaller pieces.
 **What is a function?**
 
 A relationship that has 0 or more inputs and 1 output.
+Given the same input, you will always get the same output
 
-*left off 23:33 into video*
+If your program is doing a bunch of things at once, and one piece depends on another, you can get in trouble.
+
+but a function doesn't care what is happening in the rest of the computer.
+
+**Using functional programing you're able to utilize parallelism**
+
+**Applicative Order** – When a computer program first evaluates the operator and operands, then applies the resulting value to the arguments.
